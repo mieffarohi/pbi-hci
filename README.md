@@ -1,4 +1,4 @@
-![image](https://github.com/mieffarohi/pbi-hci/assets/103298951/9054d74a-0331-44e1-80b1-672cd9c081d6)# Analisis Kinerja Kredit Nasabah (Final Project)
+# Analisis Kinerja Kredit Nasabah (Final Project)
 ## Project-Based Internship Virtual: Data Scientist Home Credit Indonesia x Rakamin Academy
 
 ## 1. Problem Reserach
@@ -30,12 +30,12 @@ Meningkatkan akurasi penilaian kredit, mengurangi risiko kredit macet, dan menin
   merged_data = pd.merge(bureau, bureau_balance, on='SK_ID_BUREAU', how='left')
   merged_data.head()
 
-# 3. Data Vizualization and Business Insight
+## 3. Data Vizualization and Business Insight
 ![image](https://github.com/mieffarohi/pbi-hci/assets/103298951/d61044a8-81b4-49c8-a0dc-2ef8db0597ed)
 - ## Insight:
 Permohonan kredit terbanyak ada pada kisaran 500 hari sebelum data direkam.
 
-# 4. Machine Learning Implementation and Evaluation
+## 4. Machine Learning Implementation and Evaluation
 ### Menggunakan regresi logistik untuk memprediksi CREDIT_ACTIVE
 ![image](https://github.com/mieffarohi/pbi-hci/assets/103298951/524de1dc-4e45-47b6-a846-49ba24daaa97)
 
@@ -49,7 +49,7 @@ Dari hasil model yang diberikan, terdapat beberapa insight yang dapat diambil, a
 
 Namun, terdapat beberapa kategori yang sulit diprediksi, seperti "Bad debt" dan "Sold", yang memiliki nilai precision dan recall sebesar 0. Hal ini menunjukkan bahwa model perlu diperbaiki untuk dapat memprediksi kategori-kategori ini dengan lebih baik.
 
-# 5. Business Recommendations
+## 5. Business Recommendations
 Berdasarkan insight-insight yang ditemukan dari analisis data, beberapa rekomendasi bisnis yang dapat diberikan adalah:
 - Perlu dilakukan evaluasi ulang terhadap kebijakan penilaian kredit yang digunakan. Hal ini dapat meliputi peninjauan kembali terhadap faktor-faktor yang digunakan dalam penilaian kredit, serta penyesuaian terhadap model penilaian kredit yang digunakan.
 - Perlu dilakukan penelitian lebih lanjut untuk mengetahui penyebab dari kategori-kategori yang sulit diprediksi. Hal ini dapat meliputi peninjauan kembali terhadap data yang digunakan, serta penyesuaian terhadap fitur-fitur yang digunakan dalam model penilaian kredit.
